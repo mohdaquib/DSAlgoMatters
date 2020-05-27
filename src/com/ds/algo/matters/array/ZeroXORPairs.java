@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ZeroXORPairs {
     public static void main (String[] args) {
-        int[] input = {1, 3, 4, 1, 4};
+        int[] input = {1, 3, 2, 1, 4, 1, 1};
         System.out.println(countPairs(input, input.length));
     }
 
