@@ -1,4 +1,4 @@
-package com.ds.algo.matters.array;
+package com.ds.algo.matters.binary_serach;
 
 public class TransitionPointInArray {
     public static void main(String[] args){

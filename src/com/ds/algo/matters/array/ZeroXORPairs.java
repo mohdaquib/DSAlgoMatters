@@ -1,20 +1,11 @@
 package com.ds.algo.matters.array;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class ZeroXORPairs {
     public static void main (String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int t = scanner.nextInt();
-        for(int i = 0; i < t; i++){
-            int N = scanner.nextInt();
-            int[] arr = new int[N];
-            for(int j = 0; j < N; j++){
-                arr[j] = scanner.nextInt();
-            }
-            System.out.println(countPairs(arr, N));
-        }
+        int[] input = {1, 3, 4, 1, 4};
+        System.out.println(countPairs(input, input.length));
     }
 
     /** This method will count pairs for XOR of zero **/

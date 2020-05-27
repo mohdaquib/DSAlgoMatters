@@ -1,4 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="340b3b1d-bd51-4c40-ae45-e612de5dbaef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ds/algo/matters/binary_serach/CheckPerfectSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ds/algo/matters/array/Sort012Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ds/algo/matters/array/Sort012Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ds/algo/matters/array/TransitionPointInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ds/algo/matters/binary_serach/TransitionPointInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ds/algo/matters/array/ZeroXORPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ds/algo/matters/array/ZeroXORPairs.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cS8FdBYpcfsZD1Z6oBKNvThrB0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ZeroXORPairs">
+    <configuration name="CheckPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.algo.matters.array.binary_serach.CheckPerfectSquare" />
+      <module name="DSalgoMatters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.algo.matters.array.binary_serach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort012Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.algo.matters.array.Sort012Array" />
+      <module name="DSalgoMatters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.algo.matters.array.binary_serach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransitionPointInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.algo.matters.array.binary_serach.TransitionPointInArray" />
+      <module name="DSalgoMatters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.algo.matters.array.binary_serach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroXORPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.algo.matters.array.ZeroXORPairs" />
+      <module name="DSalgoMatters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.algo.matters.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ZeroXORPairs" />
+        <item itemvalue="Application.CheckPerfectSquare" />
+        <item itemvalue="Application.TransitionPointInArray" />
+        <item itemvalue="Application.Sort012Array" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="340b3b1d-bd51-4c40-ae45-e612de5dbaef" name="Default Changelist" comment="" />
+      <created>1590510933159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590510933159</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Sort an array of 0, 1 and 2">
+      <created>1590558334022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590558334022</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Find Transition index in array of 0 and 1">
+      <created>1590572066588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590572066588</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sort an array of 0, 1 and 2" />
+    <MESSAGE value="Find Transition index in array of 0 and 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find Transition index in array of 0 and 1" />
+  </component>
 </project>
