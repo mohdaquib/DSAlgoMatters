@@ -3,6 +3,7 @@ package com.ds.algo.matters.greedy;
 public class HappyNumber {
     public static void main(String[] args){
         System.out.println(isHappyNumber(15));
+
     }
 
     /** This method will validate number for happy number **/
