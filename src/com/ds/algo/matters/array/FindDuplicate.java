@@ -8,6 +8,8 @@ public class FindDuplicate {
         int[] input = {4,3,2,7,8,2,3,1};
         findDuplicates(input);
     }
+
+
     public static List<Integer> findDuplicates(int[] nums) {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < nums.length; ++i) {
