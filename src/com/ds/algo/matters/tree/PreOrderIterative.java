@@ -5,26 +5,26 @@ import java.util.Stack;
 public class PreOrderIterative {
 
     public static void main(String[] args){
-        BTNode root = new BTNode(1);
-        root.left = new BTNode(2);
-        root.right = new BTNode(3);
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
 
-        root.left.left = new BTNode(4);
-        root.left.right = new BTNode(5);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
 
-        root.right.left = new BTNode(6);
-        root.right.right = new BTNode(7);
+        root.right.left = new TreeNode(6);
+        root.right.right = new TreeNode(7);
 
         preOrderTraversal(root);
     }
 
-    public static void preOrderTraversal(BTNode root){
+    public static void preOrderTraversal(TreeNode root){
         if (root == null) return;
-        Stack<BTNode> stack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
 
         while (!stack.empty()){
-            BTNode curr = stack.pop();
+            TreeNode curr = stack.pop();
             System.out.println(curr.data);
 
             if (curr.right != null){

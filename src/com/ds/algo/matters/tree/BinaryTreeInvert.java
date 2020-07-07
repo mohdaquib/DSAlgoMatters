@@ -5,17 +5,17 @@ import java.util.Queue;
 
 public class BinaryTreeInvert {
     public static void main(String[] args){
-        BTNode root = null;
+        TreeNode root = null;
 
-        root = new BTNode(1);
+        root = new TreeNode(1);
 
-        root.left = new BTNode(2);
-        root.right = new BTNode(3);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
 
-        root.left.left = new BTNode(4);
-        root.left.right = new BTNode(5);
-        root.right.left = new BTNode(6);
-        root.right.right = new BTNode(7);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+        root.right.left = new TreeNode(6);
+        root.right.right = new TreeNode(7);
 
         System.out.println("Binary Tree before traversal");
         preorder(root);
@@ -25,23 +25,23 @@ public class BinaryTreeInvert {
         preorder(root);
     }
 
-    private static void swap(BTNode root){
+    private static void swap(TreeNode root){
         if (root == null) return;
-        BTNode temp = root.left;
+        TreeNode temp = root.left;
         root.left = root.right;
         root.right = temp;
     }
 
-    private static void invertTree(BTNode root){
+    private static void invertTree(TreeNode root){
         if (root == null){
             return;
         }
 
-        Queue<BTNode> queue = new ArrayDeque<>();
+        Queue<TreeNode> queue = new ArrayDeque<>();
         queue.add(root);
 
         while (!queue.isEmpty()){
-            BTNode curr = queue.poll();
+            TreeNode curr = queue.poll();
             swap(curr);
 
             if (curr.left != null){
@@ -54,7 +54,7 @@ public class BinaryTreeInvert {
         }
     }
 
-    private static void preorder(BTNode root){
+    private static void preorder(TreeNode root){
         if (root == null) return;
 
         System.out.print(root.data + " ");

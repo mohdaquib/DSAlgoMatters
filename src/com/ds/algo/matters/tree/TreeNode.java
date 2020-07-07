@@ -1,11 +1,11 @@
 package com.ds.algo.matters.tree;
 
-public class BTNode {
+public class TreeNode {
     public int data;
-    public BTNode left;
-    public BTNode right;
+    public TreeNode left;
+    public TreeNode right;
 
-    public BTNode(int data) {
+    public TreeNode(int data) {
         this.data = data;
         this.left = null;
         this.right = null;

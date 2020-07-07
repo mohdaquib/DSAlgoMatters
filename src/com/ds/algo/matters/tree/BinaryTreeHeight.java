@@ -5,31 +5,31 @@ import java.util.Queue;
 
 public class BinaryTreeHeight {
     public static void main(String[] args){
-        BTNode root = null;
+        TreeNode root = null;
 
-        root = new BTNode(15);
-        root.left = new BTNode(10);
-        root.right = new BTNode(20);
-        root.left.left = new BTNode(8);
-        root.left.right = new BTNode(12);
-        root.right.left = new BTNode(16);
-        root.right.right = new BTNode(25);
+        root = new TreeNode(15);
+        root.left = new TreeNode(10);
+        root.right = new TreeNode(20);
+        root.left.left = new TreeNode(8);
+        root.left.right = new TreeNode(12);
+        root.right.left = new TreeNode(16);
+        root.right.right = new TreeNode(25);
 
         System.out.println(heightIterative(root));
     }
 
-    private static int height(BTNode root){
+    private static int height(TreeNode root){
         if (root == null) return 0;
         return 1 + Math.max(height(root.left), height(root.right));
     }
 
-    private static int heightIterative(BTNode root){
+    private static int heightIterative(TreeNode root){
         if (root == null) return 0;
 
-        Queue<BTNode> queue = new ArrayDeque<>();
+        Queue<TreeNode> queue = new ArrayDeque<>();
         queue.add(root);
 
-        BTNode front = null;
+        TreeNode front = null;
         int height = 0;
         while (!queue.isEmpty()){
             int size = queue.size();

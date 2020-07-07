@@ -4,22 +4,22 @@ import java.util.Stack;
 
 public class InOrderIterative {
     public static void main(String[] args){
-        BTNode root = new BTNode(1);
-        root.left = new BTNode(2);
-        root.right = new BTNode(3);
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
 
-        root.left.left = new BTNode(4);
-        root.left.right = new BTNode(5);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
 
-        root.right.left = new BTNode(6);
-        root.right.right = new BTNode(7);
+        root.right.left = new TreeNode(6);
+        root.right.right = new TreeNode(7);
 
         inorderIterative(root);
     }
 
-    private static void inorderIterative(BTNode root){
-        Stack<BTNode> stack = new Stack<>();
-        BTNode curr = root;
+    private static void inorderIterative(TreeNode root){
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode curr = root;
 
         while (!stack.isEmpty() || curr != null){
             if (curr != null){

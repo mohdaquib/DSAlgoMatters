@@ -11,13 +11,9 @@ public class CheckPerfectSquare {
         if (start > last) return false;
         if (mid * mid == num){
             return true;
-        }
-
-        else if (mid*mid > num){
+        } else if (mid*mid > num){
             return isPerfectSquare(num, start, (int) mid - 1);
-        }
-
-        else {
+        } else {
             return isPerfectSquare(num, (int) mid + 1, last);
         }
     }
